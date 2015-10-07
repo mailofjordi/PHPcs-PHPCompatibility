@@ -766,6 +766,33 @@ http://pear.php.net/dtd/package-2.0.xsd">
       </dir>
       <file baseinstalldir="PHP" name="ruleset.xml" role="php" />
      </dir>
+     <dir name="PHPCompatibility">
+      <dir name="Sniffs">
+       <dir name="PHP">
+        <file baseinstalldir="PHP" name="DefaultTimezoneRequiredSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="DeprecatedFunctionsSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="DeprecatedIniDirectivesSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="DeprecatedNewReferenceSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="ForbiddenBreakContinueVariableArgumentsSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="ForbiddenCallTimePassByReferenceSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="ForbiddenNamesAsInvokedFunctionsSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="ForbiddenNamesSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="LongArraysSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="NewClassesSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="NewFunctionsSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="NewIniDirectivesSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="NewKeywordsSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="NewLanguageConstructsSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="NonStaticMagicMethodsSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="ParameterShadowSuperGlobalsSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="PregReplaceEModifierSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="RemovedExtensionsSniff.php" role="php" />
+        <file baseinstalldir="PHP" name="RemovedHashAlgorithmsSniff.php" role="php" />
+       </dir>
+      </dir>
+      <file baseinstalldir="PHP" name="ruleset.xml" role="php" />
+      <file baseinstalldir="PHP" name="Sniff.php" role="php" />
+     </dir>
      <dir name="MySource">
       <dir name="Sniffs">
        <dir name="Channels">
